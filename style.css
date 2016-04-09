@@ -1,14 +1,11 @@
-.ul-nav{
-  list-style-type:none;
-}
+
 .navstyle{
-  background-color: black;
+  background-color: black !important;
+  border-radius:0px !important;
   position:fixed;
-  width:100%
+  width:100%;
 }
-.space{
-  margin-top:70px;
-}
+
 .logo{
   font-family: 'Londrina Sketch', cursive;
   color:white;
@@ -17,16 +14,22 @@
   border-style: solid;
   border-color:white;
   padding:0px 10px 0px 10px;
-
-
-
+}
+.navitem{
+  text-align:center;
+}
+.button_center{
+  margin-top:15px !important;
 }
 li{
-  display:inline-block;
   font-family: 'Londrina Sketch', cursive;
   font-size:2em;
   padding:10px;
-  background-color:black;
   color:white
-
+}
+a{
+  text-decoration:none !important;
+}
+a:hover{
+  color:white !important;
 }
