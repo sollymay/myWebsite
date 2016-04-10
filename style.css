@@ -19,15 +19,24 @@
 .button_center{
   margin-top:15px !important;
 }
+.space{
+  margin-top: 60px;
+}
 li{
-  font-family: 'Londrina Sketch', cursive;
+  font-family: 'Londrina Solid', cursive;
   font-size:2em;
   padding:10px;
-  color:white
+  color:white;
 }
 a{
   text-decoration:none !important;
 }
-a:hover{
+.navitem:hover{
+  color:grey !important;
+}
+.logo:hover{
+  color:white !important;
+}
+a:visited{
   color:white !important;
 }
