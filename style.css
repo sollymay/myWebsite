@@ -31,12 +31,7 @@ li{
 a{
   text-decoration:none !important;
 }
-.navitem:hover{
-  color:grey !important;
-}
+
 .logo:hover{
-  color:white !important;
-}
-a:visited{
-  color:white !important;
+  color:#ddd;
 }
