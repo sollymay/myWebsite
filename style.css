@@ -40,3 +40,7 @@ a{
 .logo:hover{
   color:#ddd;
 }
+
+.logo:visited{
+  color:#ddd;
+}
