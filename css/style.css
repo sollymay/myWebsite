@@ -44,3 +44,32 @@ a{
 .logo:visited{
   color:#ddd;
 }
+.icon{
+  text-align: center !important;
+  font-size: 35px;
+  border-radius: 50px;
+  border-style: solid;
+  padding: 10px 14px 10px 14px;
+  color: black;
+}
+#twitter:hover{
+  color:#58A8E0;
+}
+#github{
+  padding: 12px 17px 12px 17px;
+}
+#facebook{
+  padding: 11px 21px 11px 21px;
+}
+#facebook:hover{
+  color:#33659A
+}
+#email{
+  padding:11px 14px 11px 14px;
+}
+#email:hover{
+  color:#DD4B39;
+}
+.icon:hover{
+  color:#333333;
+}
