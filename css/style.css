@@ -75,3 +75,9 @@ a{
 .icon:hover{
   color:#333333;
 }
+#linkedin{
+  padding: 13px 17px 13px 17px;
+}
+#linkedin:hover{
+  color:#0C7CB6;
+}
