@@ -13,6 +13,7 @@
   border-color:white;
   padding:0px 10px 0px 10px;
 }
+
 .navitem{
   text-align:center;
 }
@@ -21,6 +22,10 @@
 }
 .space{
   margin-top: 90px;
+
+}
+.test{
+  background-color: #EFF0F0;
 }
 li{
   font-family: 'Londrina Solid', cursive;
