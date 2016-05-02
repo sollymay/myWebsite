@@ -32,7 +32,7 @@
 
 }
 .test{
-  background-color: #EFF0F0;
+  background-color: #CAE1FF;
 }
 li{
   font-family: 'Londrina Solid', cursive;
@@ -56,8 +56,8 @@ a{
   font-size: 25px;
   border-radius: 50px;
   border-style: solid;
+  color:black;
 
-  color: black;
 }
 #twitter:hover{
   color:#58A8E0;
