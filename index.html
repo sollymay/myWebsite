@@ -5,31 +5,9 @@
   <link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
   <link href='css/style.css' rel='stylesheet' type='text/css' />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <script src="js/main.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-  <script>
-
-  $(document).ready(function (){
-    $(".home").click(function (){
-      $('html, body').animate({
-        scrollTop: $(".home-target").offset().top -65
-      }, 1000);
-    });
-
-    $(".portfolio").click(function (){
-      $('html, body').animate({
-        scrollTop: $(".portfolio-target").offset().top -100
-      }, 2000);
-    });
-
-    $(".contact").click(function (){
-      $('html, body').animate({
-        scrollTop: $(".contact-target").offset().top -100
-      }, 2000);
-    });
-
-  });
-  </script>
 </head>
 
 <body>
@@ -115,11 +93,6 @@
     </div>
     <div class="col-md-10">
       <div class="col-md-4">
-        <a href="http://www.gis.com.pa" class="thumbnail">
-        <img src="images/gis.png" alt="...">
-      </a>
-      </div>
-      <div class="col-md-4">
         <a href="sub/RandomQuoteMachine/quote.html" class="thumbnail">
               <img src="images/random.png" alt="...">
             </a>
@@ -127,6 +100,11 @@
       <div class="col-md-4">
         <a href="sub/LocalWeather/weather.html" class="thumbnail">
               <img src="images/weather.png" alt="...">
+        </a>
+      </div>
+      <div class="col-md-4">
+        <a href="sub/WikipediaViewer/wikisearch.html" class="thumbnail">
+          <img src="images/gis.png" alt="...">
         </a>
       </div>
 
@@ -142,10 +120,11 @@
     </div>
     <div class="col-md-10">
       <div class="col-md-4">
-        <a href="#" class="thumbnail">
+        <a href="http://www.gis.com.pa" class="thumbnail">
         <img src="images/gis.png" alt="...">
       </a>
       </div>
+
       <div class="col-md-4">
         <a href="#" class="thumbnail">
               <img src="images/gis.png" alt="...">
