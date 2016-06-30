@@ -3,7 +3,14 @@
   background-color: black !important;
   border-radius:0px !important;
 }
+.world{
+  color: #9AD7D2;
+}
+h4{
+  font-family: 'Atma', serif;
+  font-size: 25px;
 
+}
 .handwritten{
   font-family: 'Indie Flower', cursive;
   color: black !important;
