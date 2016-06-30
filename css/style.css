@@ -4,7 +4,10 @@
   border-radius:0px !important;
 }
 
-
+.handwritten{
+  font-family: 'Indie Flower', cursive;
+  color: black !important;
+}
 .logo{
   font-family: 'Londrina Sketch', cursive;
   color:white;
