@@ -1,6 +1,0 @@
-[submodule "sub"]
-	path = sub
-	url = https://github.com/sollymay/FreeCodeCamp.git
-[submodule "FreeCodeCamp"]
-	path = FreeCodeCamp
-	url = https://github.com/sollymay/FreeCodeCamp.git
