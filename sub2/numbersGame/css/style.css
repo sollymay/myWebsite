@@ -19,8 +19,7 @@
     background-size: cover;
 }
 h5{
-  font-family: 'Dosis', sans-serif;
-  font-weight: bold;
+  font-family: 'Cabin', sans-serif;
   font-size: 20px;
 }
 .inner{
@@ -42,7 +41,14 @@ h5{
   background-color: black;
   color:white;
   border-style: none;
-  border-radius: 0px;
+  border-radius: 3px;
+  font-family: 'Cabin', sans-serif;
+  font-size: 24px;
+  font-weight: lighter;
+}
+.cabin-italic{
+  font-family: 'Cabin', sans-serif;
+  font-style: italic;
 }
 
 #startButton{
@@ -51,7 +57,10 @@ h5{
   padding-top: 20px;
   padding-bottom: 20px;
 }
-
+#startButton:hover{
+  color: white;
+  background-color: #236692;
+}
 .btn:focus, .btn:active, .btn.active:focus {
   outline-style: solid  !important;
   outline-width: thin;
