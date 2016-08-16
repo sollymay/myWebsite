@@ -8,7 +8,7 @@
 }
 .inner{
   margin-top: 5% !important;
-  margin-bottom: 10% !important;
+  margin-bottom: 5% !important;
   max-height: 75%;
   min-height: 70%;
   display: flex;
@@ -19,10 +19,8 @@
 }
 .bottom{
   max-height: 20% !important;
-  margin-top: -10px;
-  border: 2px solid black;
 }
-}
+
 a{
   text-decoration:none !important;
 }
