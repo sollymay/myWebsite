@@ -1,3 +1,3 @@
 $(document).ready(function (){
- $('.nav').localScroll({offset: {top:-110}});
+  $(".player").mb_YTPlayer();
 });

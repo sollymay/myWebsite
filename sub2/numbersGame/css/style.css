@@ -5,6 +5,7 @@
 }
 .main{
   display:block;
+  min-height: 496px; 
 }
 .atma{
   font-family: 'Atma', serif;
@@ -15,6 +16,7 @@
   max-height: 75%;
   min-height: 70%;
   display: flex;
+  background-color: 		#5ec3e1;
 
   border: 3px solid black;
   margin-left:auto;
