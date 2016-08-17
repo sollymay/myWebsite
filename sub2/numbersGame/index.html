@@ -5,6 +5,7 @@
   <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
   <link href='css/style.css' rel='stylesheet' type='text/css' />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="http://pupunzi.com/mb.components/mb.YTPlayer/demo/inc/jquery.mb.YTPlayer.js"></script>
@@ -28,7 +29,7 @@
         <h5>I am going to ask you a few math questions and also some really random questions to understand you a bit better and guess which number you picked.</h5>
         <h5>In order to play this game though, you need to answer as fast as you can</h5>
 
-        <h2 class="Signika">Rules</h2>
+        <h2 class="Signika">Rules:</h2>
         <ul>
 
           <li>
@@ -48,8 +49,28 @@
         <br />
       </div>
 
-      <div id="first-question">
-        <h1 class="text-center">132 x 11 = <span><input id="answer"/></span> </h1>
+      <div id="first-question" class="questions">
+        <h1 class="numbers-font">11-3</h1>
+        <input class="answers-font" id="first-answer"/>
+      </div>
+      <div id="second-question" class="questions">
+        <p>
+          8/
+        </p>
+        <h1 class="numbers-font">(7 x 2) - 14 + 18 </h1>
+        <input class="answers-font" id="second-answer"/>
+      </div>
+      <div id="third-question" class="questions">
+        <p>
+          8/18/
+        </p>
+        <h1 class="numbers-font">14 + 2 </h1>
+        <input class="answers-font" id="third-answer"/>
+      </div>
+      <div id="final-question" class="questions">
+        <h1 class="numbers-font">8/18/16 </h1>
+        <h1 class="question-font">Will you marry me?</h1>
+        <input class="answers-font" placeholder="YES" id="final-answer"/>
       </div>
 
     </div>

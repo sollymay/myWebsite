@@ -11,6 +11,18 @@
   color: #000026;
 
 }
+
+.answers-font{
+  font-family: 'Open Sans', sans-serif;
+  color: #236692;
+  font-size: 40px;
+
+}
+.numbers-font{
+  font-family: 'Open Sans', sans-serif;
+  color: #000026;
+  font-size: 80px;
+}
 #background {
     position: fixed;
     top: 50%;
@@ -55,6 +67,23 @@ h5{
 .cabin-italic{
   font-family: 'Cabin', sans-serif;
   font-style: italic;
+}
+.questions{
+  margin: auto;
+  text-align: center !important;
+}
+input{
+  border-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 2px solid black;
+  background-color: transparent;
+  width: 300px;
+}
+input:focus, input:active, input.active:focus{
+  outline-style: none;
 }
 
 #startButton{
