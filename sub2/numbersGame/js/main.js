@@ -6,10 +6,15 @@ $(document).ready(function (){
     $( "#content" ).fadeOut( "slow", function() {
       // Animation complete.
       $("#first-question").show()
+      while ($("#answer").val()!==str(1452)) {
         console.log($("#answer").val())
-      if($("#answer").val()!==""){
-        alert("oy vey")
+
       }
+      else {
+        console.log("yesssss")
+
+      }
+
     });
 
 
