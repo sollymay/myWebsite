@@ -13,7 +13,8 @@
 }
 .previous_answers{
   font-family: 'Open Sans', sans-serif;
-  color: red;
+  color: grey;
+  font-weight: bolder;
   position: absolute;
   top:1%;
   right:1%;
