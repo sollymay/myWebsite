@@ -11,7 +11,13 @@
   color: #000026;
 
 }
-
+.previous_answers{
+  font-family: 'Open Sans', sans-serif;
+  color: red;
+  position: absolute;
+  top:1%;
+  right:1%;
+}
 .answers-font{
   font-family: 'Open Sans', sans-serif;
   color: #236692;
