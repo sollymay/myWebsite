@@ -1,9 +1,14 @@
 
 .handwritten{
   font-family: 'Indie Flower', cursive;
+  color: 	#3cecc9;
 }
 .main{
   display:block;
+}
+.Signika{
+  font-family: 'Signika', sans-serif;
+  color: #41b4b1;
 }
 #background {
     position: fixed;
@@ -21,6 +26,7 @@
 h5{
   font-family: 'Cabin', sans-serif;
   font-size: 20px;
+  color: #236692;
 }
 .inner{
   margin-top: 5% !important;
@@ -28,7 +34,8 @@ h5{
   min-height: 70%;
   max-height: 90%;
   display: flex;
-  border: 3px solid black;
+  border: 3px solid;
+  border-color: #41b4b1;
   margin-left:auto;
   margin-right: auto;
   background-color: rgba(255,255,255,0.8);
@@ -38,7 +45,7 @@ h5{
 
 .mainButton{
 
-  background-color: black;
+  background-color: #5ec3e1;
   color:white;
   border-style: none;
   border-radius: 3px;
