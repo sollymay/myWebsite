@@ -409,9 +409,24 @@ img {
     border: 0px;
     padding-top: 20%;
   }
-  .square3{
+  .square3{5
     border:0px;
     padding-top: 20%;
+  }
+  #facebook{
+    padding: 13px 17px 13px 17px;
+  }
+  #twitter{
+    padding: 13px 14px 13px 14px;
+  }
+  #email{
+    padding:13px 13px 13px 15px;
+  }
+  #github{
+    padding:13px 16px 13px 15px;
+  }
+  #linkedin{
+    padding: 13px 16px 13px 15px;
   }
 
 }
