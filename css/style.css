@@ -52,8 +52,10 @@ img {
 }
 .main{
   margin-top: 10px;
-  max-width: 60%;
+  max-width: 90%;
   display: block;
+
+
 
 }
 #console{
@@ -68,6 +70,7 @@ img {
   color:white;
   display: inline;
 }
+
 .about > h1{
   font-family: 'Londrina Sketch', cursive;
   font-size: 50px;
@@ -80,8 +83,10 @@ img {
   padding: 20px 25px 10px 25px;
 
 }
-.left{
 
+
+.header-image{
+  margin: 0 auto;
 }
 .londrina{
   font-family: 'Londrina Solid', cursive;
@@ -334,7 +339,7 @@ img {
     display:block;
 }*/
 
-@media (min-width: 100px) and (max-width: 1000px) {
+@media (min-width: 380px) and (max-width: 1000px) {
    .collapse {
        display: none !important;
    }
@@ -347,6 +352,10 @@ img {
      text-align: center!important;
      margin-right: 0px;
    }
+   .right{
+     margin-left: auto;
+     margin-right: auto;
+   }
    .square1{
      padding-top: 20%;
    }
@@ -358,4 +367,51 @@ img {
      border:0px;
      padding-top: 20%;
    }
+
+}
+
+@media (max-width:380px) {
+  .about > h1{
+    font-family: 'Londrina Sketch', cursive;
+    font-size: 35px;
+    letter-spacing: 5px;
+  }
+  .about >p{
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 15px;
+    padding: 20px 10px 10px 10px;
+
+  }
+  .icon{
+    text-align: center !important;
+    font-size: 15px;
+    border-radius: 24px;
+    border-style: solid;
+    color:black;
+
+  }
+  .main{
+    max-width: 70%;
+  }
+  .left{
+    margin-left: -48%;
+    margin-right: -48%;
+  }
+  .right{
+    margin-left: -40%;
+    margin-right: -40%;
+  }
+  .square1{
+    padding-top: 20%;
+  }
+  .square2{
+    border: 0px;
+    padding-top: 20%;
+  }
+  .square3{
+    border:0px;
+    padding-top: 20%;
+  }
+
 }
