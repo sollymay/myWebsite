@@ -3,7 +3,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href='https://fonts.googleapis.com/css?family=Londrina+Sketch' rel='stylesheet' type='text/css'/>
   <link href='https://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'/>
-
+<link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
   <link href='css/style.css' rel='stylesheet' type='text/css' />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -17,7 +17,28 @@
 <body>
 
   <div class="header">
-    <img class="img-responsive header-image" src="images/header.jpg"/>
+    <nav class="navbar navbar-inverse navstyle navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle button_center" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-left">
+              <li class="navitem home atma"><a href="#home">Home</a></li>
+              <li class="navitem portfolio atma"><a href="#portfolio">Portfolio</a></li>
+              <li class="navitem atma"><a href="#about">About</a></li>
+
+              <li class="navitem atma"><a href="#skills">Skills</a></li>
+              <li class="navitem contact atma"><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <img class="img-responsive header-image" id="home" src="images/header.jpg"/>
 
   </div>
   <div class="container-fluid main">
@@ -25,7 +46,7 @@
       <div class="left col-lg-12">
 
 
-      <h1 class="londrina">Portfolio</h1>
+      <h1 class="londrina" id="portfolio">Portfolio</h1>
       <div class="row">
 
       </div>
@@ -89,7 +110,7 @@
       <div class="col-lg-12 ">
 
 
-      <div class="row about">
+      <div class="row about" id="about">
         <h1 class="h1" id="console">Console.log</h1>
         <h1 class="h1" id="hello">Hello World</h1>
       </br>
@@ -108,7 +129,18 @@
           </div>
         </div>
       </div>
-      <div class="row contact text-center">
+      <div class="row skills" id="skills">
+        <h1 class="h1 text-center londrina" id="skills">Skills</h1>
+        <h3 class="skill">HTML</h3>
+        <h3 class="skill">CSS</h3>
+        <h3 class="skill">JavaScript</h3>
+        <h3 class="skill">Bootstrap</h3>
+        <h3 class="skill">Python</h3>
+        <h3 class="skill">Django</h3>
+        <h3 class="skill">Selenium</h3>
+        <h3 class="skill">Docker</h3>
+      </div>
+      <div class="row  text-center" id="contact">
         <h1 class="londrina">Contact</h1>
       </br>
         <div class="row text-center">
@@ -122,10 +154,14 @@
       </div>
     </div>
     </div>
-
-  <div class="footer">
-
-  </div>
+</div>
+<div class="footer">
+  <p class="text-center handwritten">
+    Made with <i class="fa fa-coffee"></i> <i class="fa fa-music"></i> and <i class="fa fa-heart"></i> in Miami, FL
+  </p>
+  <p class="text-center handwritten">
+    Salomon May &copy; <script>document.write(new Date().getFullYear())</script> </p>
+  </p>
 </div>
 <!-- <div class="container-fluid test">
 

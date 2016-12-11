@@ -1,8 +1,22 @@
+.navstyle{
+  background-color: black !important;
+  border-radius:0px !important;
+}
+.navitem{
+  text-align:center;
+  background-color: grey;
+}
+.navitem > li{
+  color:black;
+}
 .image-hover-text {
     position: absolute;
     top: 0;
-    color:#fff;
-    background-color:rgba(0,0,10,1);
+    color:#000;
+    border-style: solid;
+    border-color: black !important;
+    border-width: 7px !important;
+    background-color:#fff;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -15,7 +29,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Lato', sans-serif;
+    font-size: 23px;
 
 }
 .image-hover-text:hover {
@@ -54,9 +69,10 @@ img {
   margin-top: 10px;
   max-width: 90%;
   display: block;
-
-
-
+}
+.handwritten{
+  font-family: 'Indie Flower', cursive;
+  color: black !important;
 }
 #console{
   text-align: right;
@@ -79,11 +95,18 @@ img {
 .about >p{
   text-align: justify;
   text-justify: inter-word;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   padding: 20px 25px 10px 25px;
 
 }
 
+.skills{
+  margin-top: 15px;
+  border-width: 7px !important;
+  border-style: solid;
+  border-color: black;
+}
 
 .header-image{
   margin: 0 auto;
@@ -127,13 +150,17 @@ img {
   background-color: #ffe564;
 
 }
-.contact {
+#contact {
   margin-top:15px;
   padding-bottom: 50px;
   margin-bottom: 35px !important;
   border-width: 7px;
   border-color: black;
   border-style: solid;
+}
+
+.skill{
+
 }
 
 a{
@@ -340,21 +367,25 @@ img {
 }*/
 
 @media (min-width: 380px) and (max-width: 1000px) {
-   .collapse {
+   /*.collapse {
        display: none !important;
-   }
-   .main { flex: 2 0px;
-     max-width: 100%;}
-   .right{order:1 !important;}
-   .left{order:2 !important;}
+   }*/
+   .main { flex: 2 0px !important;
+     max-width: 100% !important;}
+   .right{order:1 !important;
+     display: block;
+    }
+   .left{order:3 !important;}
 
    #console{
      text-align: center!important;
      margin-right: 0px;
    }
    .right{
-     margin-left: auto;
-     margin-right: auto;
+     display: block;
+     margin-left: 0;
+     min-width: 100%;
+     max-width: 100% !important;
    }
    .square1{
      padding-top: 20%;
@@ -367,14 +398,20 @@ img {
      border:0px;
      padding-top: 20%;
    }
+   .about >h1 {
+     letter-spacing: 4px;
+     display: block;
+     font-size: 47kpx;
+   }
 
 }
 
 @media (max-width:380px) {
+
   .about > h1{
     font-family: 'Londrina Sketch', cursive;
     font-size: 35px;
-    letter-spacing: 5px;
+    letter-spacing: 4px;
   }
   .about >p{
     text-align: justify;
@@ -391,6 +428,9 @@ img {
     color:black;
 
   }
+  .image-hover-text{
+    font-size: 14px;
+  }
   .main{
     max-width: 65%;
   }
@@ -399,8 +439,9 @@ img {
     margin-right: -48%;
   }
   .right{
+    display: block;
     margin-left: -40%;
-    margin-right: -40%;
+    margin-right: -40% !important;
   }
   .square1{
     padding-top: 20%;
