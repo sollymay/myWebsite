@@ -1,13 +1,71 @@
+body{
+  padding-top: 70px;
+}
+#myNavbar{
+  border-width: 7px;
+}
+.salomon{
+  font-family: 'Amatic SC', cursive;
+  font-style: italic;
+  color: black;
+  margin-top: -10px;
+  margin-bottom: -10px;
+  font-size: 44px;
+}
+.nav-up {
+    top: -80px;
+
+}
+.nav-down{
+    top:0px;
+}
+.button_center{
+  border-width: 7px;
+  border-color: black !important;
+}
+
+.button_center > span {
+  border: 1px solid black;
+}
+.button_center:hover{
+  background-color: grey !important;
+}
+.button_center:visited{
+  background-color: white !important;
+}
+.button_center:focus{
+  background-color: white !important;
+}
+
+.navitem:collapse{
+  border-style: none;
+}
 .navstyle{
-  background-color: black !important;
-  border-radius:0px !important;
+  background-color: white !important;
+  border-radius:0 !important;
+  border-style: solid;
+  border-width: 7px;
+  border-color: black;
+  font-family: 'Lato', sans-serif;
+}
+.icon-bar{
+  color:black !important;
+  background-color: blue;
 }
 .navitem{
   text-align:center;
-  background-color: grey;
+  background-color: white;
+  border-style: solid;
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+
 }
-.navitem > li{
-  color:black;
+.navitem > a{
+  color:black !important;
+}
+.navitem > a:hover{
+  color:grey;
 }
 .image-hover-text {
     position: absolute;
