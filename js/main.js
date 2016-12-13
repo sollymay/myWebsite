@@ -31,7 +31,6 @@ $(document).ready(function (){
          $('nav').removeClass('nav-down').addClass('nav-up');
      } else {
          // Scroll Up
-        //  if(st + $(window).height() < $(document).height()) {
              $('nav').removeClass('nav-up').addClass('nav-down');
         //  }
      }
